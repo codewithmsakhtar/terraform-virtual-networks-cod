@@ -1,9 +1,19 @@
-rgs = {
+rgs = 
+{
   rg1 = {
     name     = "rg-shineind1"
     location = "East US"
   }
 }
+
+rgs = 
+{
+  rg2 = {
+    name     = "rg-shineind2"
+    location = "East US"
+  }
+}
+
 
 storage_account = {
   stg1 = {
