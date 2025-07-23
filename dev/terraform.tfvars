@@ -1,17 +1,19 @@
-rgs = 
-{
+rgs = {
   rg1 = {
     name     = "rg-shineind1"
     location = "East US"
   }
-}
 
-rgs = 
-{
-  rg2 = {
-    name     = "rg-shineind2"
+  rg3 = {
+    name     = "rg-prod1114"
     location = "East US"
   }
+rg4 = {
+    name     = "rg-prod11156654"
+    location = "central india"
+  }
+
+
 }
 
 
@@ -25,7 +27,17 @@ rgs =
 
 storage_account = {
   stg1 = {
-    name                     = "mystorageaccount"
+    name                     = "storageaccount78234"
+    resource_group_name      = "rg-prod11156654"
+    location                 = "central india"
+    account_tier             = "Standard"
+    account_replication_type = "LRS"
+
+  }
+
+
+  stg2 = {
+    name                     = "prostoragejfrog0912"
     resource_group_name      = "rg-shineind1"
     location                 = "East US"
     account_tier             = "Standard"
