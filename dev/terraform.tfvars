@@ -15,6 +15,14 @@ rgs =
 }
 
 
+{
+  rg3 = {
+    name     = "rg-shineind3"
+    location = "East US"
+  }
+}
+
+
 storage_account = {
   stg1 = {
     name                     = "mystorageaccount"
