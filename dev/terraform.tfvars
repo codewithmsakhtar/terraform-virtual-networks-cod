@@ -1,5 +1,4 @@
-rgs = 
-{
+rgs = {
   rg1 = {
     name     = "rg-shineind1"
     location = "East US"
